@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+<style>
+    .bandera {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        display: inline-block;
+        border: solid 1px black;
+    }
+
+    #espana,
+    #emiratos,
+    #dinamarca {
+        background: red;
+    }
+
+    #espana div {
+        height: 33.3%;
+        width: 100%;
+        top: 33.3%;
+        background: yellow;
+        position: absolute;
+    }
+
+    #emiratos div:nth-child(1) {
+        position: absolute;
+        width: 75%;
+        height: 33.3%;
+        left: 25%;
+        background: green;
+    }
+
+    #emiratos div:nth-child(2) {
+        position: absolute;
+        width: 75%;
+        height: 33.3%;
+        left: 25%;
+        top: 33.3%;
+        background: white;
+    }
+
+    #emiratos div:nth-child(3) {
+        position: absolute;
+        width: 75%;
+        height: 33.3%;
+        left: 25%;
+        top: 66.6%;
+        background: black;
+    }
+
+    #dinamarca div:nth-child(1) {
+        width: 10%;
+        position: absolute;
+        background: white;
+        height: 100%;
+        left: 25%;
+    }
+
+    #dinamarca div:nth-child(2) {
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        background: white;
+        top: 45%;
+    }
+
+    #japon div {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: red;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <div id="espana" class="bandera">
+        <div>
+        </div>
+    </div>
+
+    <div id="emiratos" class="bandera">
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+    </div>
+
+    <div>
+
+        <div id="dinamarca" class="bandera">
+            <div>
+            </div>
+            <div>
+            </div>
+
+        </div>
+        <div id="japon" class="bandera">
+            <div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
